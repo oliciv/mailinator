@@ -36,7 +36,7 @@ Returns something like the following
 pip install mailinator
 ```
 
-# Commmand line
+# Command line
 
 This module also includes the command `mailinator` which is simply a call to 
 `get_newest_mail` with the first command line argument treated as the user name.
