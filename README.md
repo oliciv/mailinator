@@ -36,6 +36,13 @@ Returns something like the following
 pip install mailinator
 ```
 
+## Requirements
+
+```
+requests
+BeautifulSoup
+```
+
 # Command line
 
 This module also includes the command `mailinator` which is simply a call to 

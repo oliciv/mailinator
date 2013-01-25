@@ -23,5 +23,9 @@ setup(
     license='GPLv3',
     keywords=['mailinator', 'api'],
     packages=['mailinator'],
-    scripts=['bin/mailinator']
+    scripts=['bin/mailinator'],
+    install_requires=[
+        'requests>=1.1.0',
+        'beautifulsoup>=3.2.1',
+    ],
 )
